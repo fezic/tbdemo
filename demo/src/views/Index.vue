@@ -2,7 +2,10 @@
     <div>
         <header-guide></header-guide>
         <SearchCom></SearchCom>
-        <Exhibition title="家用电器" :guideList="guideList"></Exhibition>
+        <Exhibition title="家用电器" 
+        :guideList="guideList"
+        :recommandList="recommandList"
+        ></Exhibition>
         <!-- <Login></Login> -->
         <foot-guide></foot-guide>
     </div>
@@ -24,7 +27,8 @@ import Exhibition from "../components/Exhibition.vue"
         },
         data(){
             return{
-                guideList:["热卖","大家电","生活电器"," 厨房电器","应季电器","空气","净水","高端电器"]
+                guideList:["热卖","大家电","生活电器"," 厨房电器","应季电器","空气","净水","高端电器"],
+                recommandList:['节能补贴','4K电视','空气净化器','IH电饭煲','滚筒洗衣机','电热水器']
             }
         },
         mounted(){
