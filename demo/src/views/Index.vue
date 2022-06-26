@@ -1,29 +1,32 @@
 <template>
     <div>
-        <header-guide></header-guide>
+        <!-- <Header-guide></Header-guide>
         <SearchCom></SearchCom>
         <Exhibition title="家用电器" 
         :guideList="guideList"
         :recommandList="recommandList"
         ></Exhibition>
-        <!-- <Login></Login> -->
-        <foot-guide></foot-guide>
+        <Login></Login>
+        <Foot-guide></Foot-guide> -->
+        <Banner></Banner>
     </div>
 </template>
 
 <script>
-import SearchCom from "../components/SearchCom.vue"
+// import SearchCom from "../components/SearchCom.vue"
 // import Login from "./Login.vue"
-import FootGuide from '../components/FootGuide.vue'
-import HeaderGuide from '../components/HeaderGuide.vue'
-import Exhibition from "../components/Exhibition.vue"
+// import FootGuide from '../components/FootGuide.vue'
+// import HeaderGuide from '../components/HeaderGuide.vue'
+// import Exhibition from "../components/Exhibition.vue"
+import Banner from "../components/Banner.vue"
     export default {
         components:{
-            HeaderGuide,
-            SearchCom,
-            FootGuide,
+            // HeaderGuide,
+            // SearchCom,
+            // FootGuide,
             // Login,
-            Exhibition
+            // Exhibition,
+            Banner
         },
         data(){
             return{

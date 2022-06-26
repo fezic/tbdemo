@@ -62,7 +62,7 @@ export default {
 .outer {
   background-color: #e93854;
   .login-wrap {
-    background: url(../../public/images/loginbg.png) no-repeat;
+    background: url(../assets/images/loginbg.png) no-repeat;
     height: 475px;
     background-position: 50%;
     position: relative;
